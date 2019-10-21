@@ -1,0 +1,6 @@
+language: csharp
+solution: test.csproj
+
+script:
+  - dotnet build
+  - dotnet run
