@@ -1,6 +1,8 @@
 language: csharp
-solution: test.csproj
-
+solution: test.sln
+mono: none
+dotnet: 3.0
+install:
+- dotnet restore
 script:
   - dotnet build
-  - dotnet run
